@@ -4,9 +4,9 @@ import Image from 'next/image'
 import { useState, Fragment } from 'react'
 import { Combobox, Transition } from '@headlessui/react'
 import { manufacturers } from '@/constants'
-import { SearchManuFacturerProps } from '@/types'
+import { SearchManufacturerProps } from '@/types'
 
-const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
+const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacturerProps) => {
   const [query, setQuery] = useState('')
 
   const filteredManufacturers =
